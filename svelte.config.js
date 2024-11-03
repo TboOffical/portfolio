@@ -1,15 +1,9 @@
-import adapter from '@sveltejs/adapter-cloudflare-workers';
+import adapter from '@sveltejs/adapter-static';
 
 export default {
 	kit: {
 		adapter: adapter({
-			config: 'wrangler.toml',
-			platformProxy: {
-				configPath: 'wrangler.toml',
-				environment: undefined,
-				experimentalJsonConfig: false,
-				persist: false
-			}
+			fallback: '200.html' // may differ from host to host
 		})
 	}
 };

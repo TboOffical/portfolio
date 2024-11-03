@@ -6,6 +6,8 @@
     import {conf} from "../lib/conf.js";
 
     export const prerender = true
+    export const ssr = false;
+
 
     async function getGithubProfile(username){
         let req = await fetch("https://api.github.com/users/" + username)
