@@ -1,0 +1,3 @@
+const i={changeThisToTrue:!0,siteTitle:"My Portfolio",FullName:"Your Name",github:"tbooffical",linkedin:"Your LinkedIn URL",email:"your@email.com",phone:"+1234567890",bio:`Lourm Ipsum Dolor Sit Amet Consectetur Adipiscing Elit Sed Do Eiusmod 
+    Tempor Incididunt Ut Labore Et Dolore Magna Aliqua Ut Enim Ad Minim Veniam`,longBio:`## This is my Bio 
+ *  Pretty nice huh?`,skills:["strings","here"],languages:[".go",".svelte",".cpp",".js",".py",".java",".swift",".php",".sql",".cs"],projects:["https://github.com/markedjs/marked","https://github.com/sveltejs/svelte","https://github.com/Cinnamon/kotaemon"]};export{i as c};
